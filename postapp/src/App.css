@@ -1,0 +1,87 @@
+html {
+  background-color: #f2f2f2;
+}
+.App {
+  text-align: center;
+  height: auto;
+  width: 500px;
+  margin-left: 450px;
+  margin-top: 30px;
+  border: 1px solid darkgray;
+  background-color: #ffffff;
+}
+
+.AddNewPost {
+  font-size: 16px;
+  width: 425px;
+  height: 46px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.commentsList {
+  padding-top: 15px;
+}
+
+time {
+  float: right;
+}
+
+.UserName {
+      font-size: 12px;
+    display: block;
+}
+.commentsList div.comments {
+    border: 1px solid white;
+    padding: 15px;
+    margin-bottom: 15px;
+  }
+.commentsList div.author {
+  font-size: 12px;
+}
+.commentLink {
+    display: block;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
+
+.newPosts {
+  margin-top: 10px;
+}
+.postsContainer {
+  margin: 15px 5px;
+}
+.PostListitems {
+  text-align: left;
+  padding: 15px;
+  background: lightgrey;
+  border-radius: 5px;
+  margin: 15px 5px;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
